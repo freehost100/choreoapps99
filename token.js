@@ -14,7 +14,7 @@ $('.load').fadeIn();
             datatype: 'JSON',           
             complete: function(data) {
             setTimeout(function(){
-  window.location.href='data1.html'
+  window.location.href='data.html'
   document.getElementById('kirims').innerHTML = "Selanjutnya";
  $('.load').fadeOut();
     }, 500);
